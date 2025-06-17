@@ -1,36 +1,30 @@
-# Desafíos IT: consultas SQL
+# Desafíos SQL – Curso LinkedIn Learning
 
-Este es el repositorio del curso de LinkedIn Learning `Desafíos IT: consultas SQL`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+Este repositorio contiene los ejercicios y consultas SQL que voy resolviendo como parte del curso **"SQL Essential Training"** en LinkedIn Learning.
 
-![COURSENAME][lil-thumbnail-url] 
+📚 **Objetivo:** Fortalecer mis habilidades en consultas SQL aplicadas a bases de datos reales, usando MySQL Workbench y un enfoque práctico.
 
-Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
+---
 
-Expande tus conocimientos y refuerza tus habilidades de SQL por medio de ejercicios prácticos con este contenido. El curso tiene como objetivo resolver ejercicios de SQL de distintas dificultades, planteados de menos a más, para poner en práctica y retar todo lo que crees saber sobre este lenguaje. Durante la formación te enfrentarás a dos bases de datos y muchos retos que debes completar sobre ellas. Primero se te planteará el desafío, después se te ofrece la solución para que puedas comprobar tus resultados.
-## Instrucciones
+## 📂 Estructura del repositorio
 
-Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
+- `mis_consultas_vivi.sql`: archivo donde guardo las consultas que voy resolviendo y personalizando durante el curso.
+- Archivos del curso original (estructura de base de datos, ejemplos, etc).
 
-## Ramas
+---
 
-Las ramas están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura es Capítulo#_Vídeo#. Por ejemplo, la rama denominada `02_03` corresponde al segundo capítulo y al tercer vídeo de ese capítulo. Algunas ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el mismo código que al principio del vídeo. La branch f tiene el mismo código que al final del vídeo. La rama master tiene el estado final del código que aparece en el curso.
+## 📌 Temas aplicados
 
-## Instalación
+- `SELECT`, `WHERE`, `JOIN`, `GROUP BY`, `ORDER BY`
+- Funciones de agregación (`COUNT`, `AVG`, `MAX`)
+- `INNER JOIN`, `LEFT JOIN`, `DISTINCT`
+- Actualizaciones (`UPDATE`) con condiciones
+- Claves foráneas y relaciones entre tablas
 
-1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - MySQL 8.0.28
-   - MySQL Workbench
+---
 
-2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. Descarga las bases de datos Bicicleta.db.sql y Cine.db.sql.
-4. Resuelve los desafíos y luego puedes comparar tus query con los proporcionados en el curso.
+## 🚀 Cómo usar este repo
 
-### Docente
-
-**Lincy González Rojas**
-
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/lincy-gonzalez-rojas).
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/desafios-it-consultas-sql/aprende-sobre-consultas-sql-con-ejemplos-practicos
-[lil-thumbnail-url]: https://cdn.lynda.com/course/3200456/3200456-1663675848994-16x9.jpg
+1. Clona el proyecto:
+   ```bash
+   git clone https://github.com/vivianacueva/desafios-it-consultas-sql-3200456.git
